@@ -1,0 +1,20 @@
+# env.yaml
+
+project:
+  title: FastApi
+  host: localhost
+  port: 8000
+  root-path: /api
+  version: 0.1.0
+
+database:
+  host: host
+  port: 5432
+  username: username
+  password: password
+  name: db-name
+  schema: service
+
+auth:
+  secret-key: "Enter Secret Key"
+  algorithm: HS256
